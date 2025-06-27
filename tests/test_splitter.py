@@ -1,7 +1,13 @@
 from semantic_splitter import SemanticSplitter
 
+from Projects.rag_project.app import model
+
+
 def test_auto_split():
-    splitter = SemanticSplitter(threshold=0.4, depth='standard', tokenization_mode='para')
+    splitter = SemanticSplitter(threshold=0.4,
+                                depth='standard',
+                                tokenization_mode='para',
+                                model="BAAI/bge-base-en")
 
     with open(r"C:\Users\DELL\Downloads\maran.txt", "r", encoding="utf-8") as f:
         doc = f.read()
