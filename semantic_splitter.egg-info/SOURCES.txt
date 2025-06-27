@@ -1,3 +1,4 @@
+LICENSE.txt
 README.md
 pyproject.toml
 setup.py
@@ -8,7 +9,4 @@ semantic_splitter.egg-info/SOURCES.txt
 semantic_splitter.egg-info/dependency_links.txt
 semantic_splitter.egg-info/requires.txt
 semantic_splitter.egg-info/top_level.txt
-tests/test.py
-tests/test1.py
-tests/test2.py
 tests/test_splitter.py
