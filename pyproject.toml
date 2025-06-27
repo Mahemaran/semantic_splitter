@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semantic_splitter"
+version = "0.1.0"
+description = """Semantic chunking of documents using Sentence Transformers and LangChain,
+                without relying on fixed chunk sizes or overlaps."""
+authors = [
+    {name = "Maran M", email = "mahemaran99@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "nltk",
+    "sentence-transformers",
+    "langchain",
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache 2.0 License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Mahemaran/semantic_splitter"
+Repository = "https://github.com/Mahemaran/semantic_splitter"

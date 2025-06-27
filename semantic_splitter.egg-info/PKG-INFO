@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: semantic_splitter
+Version: 0.1.0
+Summary: Semantic chunking of documents using Sentence Transformers and LangChain,
+Home-page: https://github.com/Mahemaran/semantic_splitter
+Author: Maran M
+Author-email: Maran M <mahemaran99@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/Mahemaran/semantic_splitter
+Project-URL: Repository, https://github.com/Mahemaran/semantic_splitter
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache 2.0 License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: nltk
+Requires-Dist: sentence-transformers
+Requires-Dist: langchain
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# 🤖 Semantic Splitter
+
+Split documents into semantically meaningful chunks using Sentence Transformers and LangChain.
+
+---
+
+## ✅ Features
+
+- Embedding-based semantic grouping
+- Sentence or paragraph tokenization
+- Configurable chunking depth
+- Returns `langchain.Document` chunks
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/semantic_splitter.git
+cd semantic_splitter
+pip install -e .

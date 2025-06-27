@@ -1,0 +1,4 @@
+nltk
+langchain
+langchain_community
+sentence_transformers
