@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="semantic_splitter",
-    version="0.1.0",
+    version="0.1.1",
     description="Semantic chunking of documents using Sentence Transformers and LangChain, without relying on fixed chunk sizes or overlaps.",
     long_description=long_description,
     long_description_content_type="text/markdown",
